@@ -9,3 +9,7 @@ body {
   background: #E5E5E5;
   /* font-family: 'Staatliches', cursive; */
 }
+
+legend {
+  text-transform: uppercase;
+}
