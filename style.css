@@ -7,9 +7,37 @@
 body {
   font-family: 'Poppins', sans-serif;
   background: #E5E5E5;
-  /* font-family: 'Staatliches', cursive; */
 }
 
-legend {
-  text-transform: uppercase;
+body::before {
+  content: '';
+  width: 100%;
+  height: 436px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  /* z-index: -1; posiciona o elemento atrás */
+  background: #535971;
+}
+
+header {
+  width: 750px;
+  margin: auto;
+}
+
+header h1 {
+  font-family: 'Staatliches', cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 60px;
+  color: #FFFFFF;
+}
+
+header p {
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
 }
