@@ -151,8 +151,8 @@ fieldset legend {
 
 footer {
   background: #535971;
-  height: 140px;
-  padding: 40px 64px;
+  height: 160px;
+  padding: 52px 71px;
   margin-bottom: 100px;
   border-radius: 0px 0px 20px 20px;
 }
@@ -168,6 +168,11 @@ footer .button {
   color: #FFFFFF;
   width: 608px;
   height: 56px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 footer .button:hover {
