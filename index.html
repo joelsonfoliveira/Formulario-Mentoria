@@ -17,11 +17,21 @@
       <h1>MENTORIA</h1>
       <p>Preencha o formulário abaixo para agendar a sua mentoria</p>
     </header>
-    <form id="my-form">
+    <form>
       <fieldset>
-        <legend>Informações pessoais</legend>
-        <label for="event-name">Nome</label>
-        <input type="text" id="event-name" />
+        <div class="fieldset-wrapper">
+          <legend>Informações pessoais</legend>
+          <div class="cols-2">
+            <div class="input-wrapper">
+              <label for="event-name">Nome</label>
+              <input type="text" id="event-name" />
+            </div>
+            <div class="input-wrapper">
+              <label for="event-surname">Sobrenome</label>
+              <input type="text" id="event-surname" />
+            </div>
+          </div>
+        </div>
       </fieldset>
       <fieldset></fieldset>
       <fieldset></fieldset>
