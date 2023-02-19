@@ -148,3 +148,28 @@ fieldset legend {
 .cols-3>div:nth-child(1) {
   width: 100%;
 }
+
+footer {
+  background: #535971;
+  height: 140px;
+  padding: 40px 64px;
+  margin-bottom: 100px;
+  border-radius: 0px 0px 20px 20px;
+}
+
+footer .button {
+  border: none;
+  background: #FF5374;
+  border-radius: 20px;
+  font-family: 'Staatliches', cursive;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #FFFFFF;
+  width: 608px;
+  height: 56px;
+}
+
+footer .button:hover {
+  background: #c9435e;
+}
